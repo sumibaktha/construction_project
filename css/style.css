@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.logo {
+  order: 1;
+  /* font-size: 2rem; 
+   font-weight: 800; */
+  color: var(--Black, #010101);
+  font-family: 'Open Sans', sans-serif;
+font-size: 22px;
+font-style: normal;
+font-weight: bold;
+/* line-height: 26px; 118.182% */
+padding: 20px;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  margin-left: 50px;
+  margin-right: 230px;
+  /* background-color:#C4C4C4; */
+}
+
+nav ul {
+  display: flex;
+  order: 2;
+}
+
+nav ul a {
+  color: #000000;
+  font-size: 1.6rem;
+  margin-left: 2rem;
+  text-align: center;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* .container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/heroImage.png");
+
+  height: 600px;
+  padding: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+
+} */
+
+.container img {
+  width: 100%;
+  height: 700px;
+
+}
+
+.hero-text {
+  width: 80%;
+}
+
+.hero-text h1 {
+  font-size: 3.3rem;
+  margin-bottom: 12px;
+  color: black;
+}
+
+.hero-text p {
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+}
+
+button {
+  padding: 1em 2.1em 1.1em;
+  border-radius: 194px;
+  margin: 8px;
+  border: none;
+  background-color: #1A5F58;
+  color: white;
+  font-family: Roboto;
+  font-weight: 800;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  text-align: center;
+  /* box-shadow: 0em -0.2rem 0em #e2e273 inset; */
+  transition: color 3s ease-in-out;
+}
+
+button:hover {
+  background-color: #1A5F58;
+
+  color: white;
+  border: 3px solid white;
+  cursor: pointer;
+  box-shadow: 0em -0.2rem 0em #e2e273 inset; 
+}
+
+nav,button {
+ order: 3; 
+}
+
+body, html {
+  height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/heroImage.png");
+
+/* Set a specific height */
+height: 100%;
+
+/* Position and center the image to scale nicely on all screens */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+text-align: left;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: black;
+}
+
+/* Cards for Why Choose US START */
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+.whyChooseUs{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 2%;
+}
+
+.whyChooseUs h2 {
+  font-family: Playfair ;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.whyChooseUs img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  /* box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25); */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+
+  /* background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%); */
+}
+
+.card_title {
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+/* End for Why Choose US Cards */
+
+
+
+
+/* Media queries */
+
+@media (max-width: 884px) {
+  .container {
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  .container img {
+    width: 100%
+  }
+  .hero-text {
+    width: 100%;
+    text-align: center;
+  }
+  .hero-text h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 678px) {
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+    .container img {
+    width: 100%
+  }
+  nav ul {
+    display: none;
+  }
+}
+@media (max-width: 428px) {
+  nav ul {
+    display: none;
+  }
+}
