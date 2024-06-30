@@ -2,6 +2,8 @@
 // This Code is for only the floating card in right bottom corner
 // **********************
 
+
+
 const WebCifarIcon = document.querySelector("#webCifar-icon");
 const WebCifarEl = document.querySelector("#webCifar");
 const close = WebCifarEl.querySelector(".close");
@@ -15,3 +17,5 @@ close.addEventListener("click", () => {
 });
 
 youtubeLink.setAttribute("href", "https://youtu.be/fs923Mu5EXY");
+
+

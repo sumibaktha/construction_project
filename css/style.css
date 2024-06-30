@@ -1,4 +1,5 @@
 * {
+  max-width: 1440px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -60,8 +61,7 @@ nav ul a {
 
 .container img {
   width: 100%;
-  height: 700px;
-
+  height: 750px;
 }
 
 .hero-text {
@@ -124,7 +124,7 @@ height: 100%;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-position: relative;
+position: absolute;
 }
 
 /* Place text in the middle of the image */
@@ -150,8 +150,8 @@ color: black;
 
 
 .whyChooseUs{
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1440px;
+  margin: 0;
   padding-top: 2%;
 }
 
@@ -173,7 +173,7 @@ color: black;
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  margin: 0;
+  margin: 35px;
   padding: 0;
 }
 
@@ -235,6 +235,262 @@ color: black;
 }
 
 /* End for Why Choose US Cards */
+/* Our Services Start*/
+
+.box {
+  /* width: 1440px;
+  height: 858px; */
+  max-width: 1440px;
+  margin: 35px ;
+  padding-top: 2%;
+}
+
+.box .group {
+  position: relative;
+  width: 1442px;
+  height: 858px;
+  top: 0;
+  left: 0;
+}
+
+.box .overlap-group {
+  position: relative;
+  width: 1440px;
+  height: 858px;
+  background-color: var(--variable-collection-green-25);
+}
+
+.box .pill-button {
+  display: flex;
+  width: 490px;
+  height: 56px;
+  align-items: center;
+  justify-content: center;
+  gap: 19.4px;
+  padding: 19.4px 38.8px;
+  position: absolute;
+  top: 107px;
+  left: 806px;
+  background-color: var(--variable-collection-dark-green);
+  border-radius: 194px;
+}
+
+.box .text-wrapper {
+  position: relative;
+  width: 368px;
+  margin-top: -6.32px;
+  margin-bottom: -1.47px;
+  font-family: var(--h6-18px-roboto-font-family);
+  font-weight: var(--h6-18px-roboto-font-weight);
+  color: var(--variable-collection-white);
+  font-size: var(--h6-18px-roboto-font-size);
+  text-align: center;
+  letter-spacing: var(--h6-18px-roboto-letter-spacing);
+  line-height: var(--h6-18px-roboto-line-height);
+  font-style: var(--h6-18px-roboto-font-style);
+}
+
+.box .div {
+  position: absolute;
+  width: 360px;
+  top: 105px;
+  left: 144px;
+  font-family: var(--h2-42px-playfair-font-family);
+  font-weight: var(--h2-42px-playfair-font-weight);
+  color: var(--variable-collection-dark-green);
+  font-size: var(--h2-42px-playfair-font-size);
+  letter-spacing: var(--h2-42px-playfair-letter-spacing);
+  line-height: var(--h2-42px-playfair-line-height);
+  font-style: var(--h2-42px-playfair-font-style);
+}
+
+.box .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  position: absolute;
+  top: 240px;
+  left: 146px;
+}
+
+.box .frame-2 {
+  display: flex;
+  width: 586px;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.box .text-wrapper-2 {
+  position: relative;
+  width: 268px;
+  height: 66px;
+  margin-top: -1px;
+  font-family: var(--h4-28px-roboto-font-family);
+  font-weight: var(--h4-28px-roboto-font-weight);
+  color: var(--variable-collection-dark-green);
+  font-size: var(--h4-28px-roboto-font-size);
+  letter-spacing: var(--h4-28px-roboto-letter-spacing);
+  line-height: var(--h4-28px-roboto-line-height);
+  font-style: var(--h4-28px-roboto-font-style);
+}
+
+.box .p {
+  position: relative;
+  width: 296px;
+  margin-top: -1px;
+  margin-right: -2px;
+  font-family: var(--h6-18px-roboto-font-family);
+  font-weight: var(--h6-18px-roboto-font-weight);
+  color: var(--variable-collection-dark-green);
+  font-size: var(--h6-18px-roboto-font-size);
+  letter-spacing: var(--h6-18px-roboto-letter-spacing);
+  line-height: var(--h6-18px-roboto-line-height);
+  font-style: var(--h6-18px-roboto-font-style);
+}
+.box .pFineWork {
+  position: relative;
+  width: 420px;
+  margin-top: -1px;
+  margin-right: -2px;
+  font-family: var(--h6-18px-roboto-font-family);
+  font-weight: var(--h6-18px-roboto-font-weight);
+  color: var(--variable-collection-dark-green);
+  font-size: var(--h6-18px-roboto-font-size);
+  letter-spacing: var(--h6-18px-roboto-letter-spacing);
+  line-height: var(--h6-18px-roboto-line-height); 
+  font-style: var(--h6-18px-roboto-font-style);
+}
+
+.box .line {
+  position: relative;
+  width: 620px;
+  height: 1px;
+}
+
+.box .frame-3 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.box .text-wrapper-3 {
+  position: relative;
+  width: 268px;
+  height: 37px;
+  margin-top: -1px;
+  font-family: var(--h4-28px-roboto-font-family);
+  font-weight: var(--h4-28px-roboto-font-weight);
+  color: var(--variable-collection-dark-green);
+  font-size: var(--h4-28px-roboto-font-size);
+  letter-spacing: var(--h4-28px-roboto-letter-spacing);
+  line-height: var(--h4-28px-roboto-line-height);
+  font-style: var(--h4-28px-roboto-font-style);
+}
+
+.box .text-wrapper-4 {
+  position: relative;
+  width: 294px;
+  margin-top: -1px;
+  font-family: var(--h6-18px-roboto-font-family);
+  font-weight: var(--h6-18px-roboto-font-weight);
+  color: var(--variable-collection-dark-green);
+  font-size: var(--h6-18px-roboto-font-size);
+  letter-spacing: var(--h6-18px-roboto-letter-spacing);
+  line-height: var(--h6-18px-roboto-line-height);
+  font-style: var(--h6-18px-roboto-font-style);
+}
+
+.box .img {
+  margin-bottom: -1px;
+  position: relative;
+  width: 620px;
+  height: 1px;
+}
+
+.box .rectangle {
+  position: relative;
+  width: 354px;
+  height: 472px;
+  top: 240px;
+  left: 880px;
+  background-color: var(--variable-collection-gray-for-disabled-buttons);
+}
+
+.box .rectangle .image {
+  position: absolute;
+  width: 455px;
+  height: 472px;
+
+}
+/*Our Services End */
+:root {
+  --h1-48px-playfair-font-family: "PlayfairDisplay-Bold", Helvetica;
+  --h1-48px-playfair-font-weight: 700;
+  --h1-48px-playfair-font-size: 48px;
+  --h1-48px-playfair-letter-spacing: 0px;
+  --h1-48px-playfair-line-height: 60px;
+  --h1-48px-playfair-font-style: normal;
+  --h2-42px-playfair-font-family: "PlayfairDisplay-Bold", Helvetica;
+  --h2-42px-playfair-font-weight: 700;
+  --h2-42px-playfair-font-size: 42px;
+  --h2-42px-playfair-letter-spacing: 0px;
+  --h2-42px-playfair-line-height: normal;
+  --h2-42px-playfair-font-style: normal;
+  --h3-36px-playfair-font-family: "PlayfairDisplay-Medium", Helvetica;
+  --h3-36px-playfair-font-weight: 500;
+  --h3-36px-playfair-font-size: 36px;
+  --h3-36px-playfair-letter-spacing: 0px;
+  --h3-36px-playfair-line-height: normal;
+  --h3-36px-playfair-font-style: normal;
+  --h4-28px-roboto-font-family: "Roboto-Bold", Helvetica;
+  --h4-28px-roboto-font-weight: 700;
+  --h4-28px-roboto-font-size: 28px;
+  --h4-28px-roboto-letter-spacing: 0px;
+  --h4-28px-roboto-line-height: normal;
+  --h4-28px-roboto-font-style: normal;
+  --h5-24px-roboto-font-family: "Roboto-Regular", Helvetica;
+  --h5-24px-roboto-font-weight: 400;
+  --h5-24px-roboto-font-size: 24px;
+  --h5-24px-roboto-letter-spacing: 0px;
+  --h5-24px-roboto-line-height: 36px;
+  --h5-24px-roboto-font-style: normal;
+  --h6-18px-roboto-font-family: "Roboto-Regular", Helvetica;
+  --h6-18px-roboto-font-weight: 400;
+  --h6-18px-roboto-font-size: 18px;
+  --h6-18px-roboto-letter-spacing: 0px;
+  --h6-18px-roboto-line-height: 25px;
+  --h6-18px-roboto-font-style: normal;
+  --regular-16px-roboto-font-family: "Roboto-Regular", Helvetica;
+  --regular-16px-roboto-font-weight: 400;
+  --regular-16px-roboto-font-size: 16px;
+  --regular-16px-roboto-letter-spacing: 0px;
+  --regular-16px-roboto-line-height: 22px;
+  --regular-16px-roboto-font-style: normal;
+  --regular-14px-roboto-font-family: "Roboto-Regular", Helvetica;
+  --regular-14px-roboto-font-weight: 400;
+  --regular-14px-roboto-font-size: 14px;
+  --regular-14px-roboto-letter-spacing: 0px;
+  --regular-14px-roboto-line-height: normal;
+  --regular-14px-roboto-font-style: normal;
+  --variable-collection-green: rgba(26, 95, 88, 1);
+  --variable-collection-light-green-10: rgba(235, 240, 239, 1);
+  --variable-collection-black: rgba(1, 1, 1, 1);
+  --variable-collection-white: rgba(255, 255, 255, 1);
+  --variable-collection-beige: rgba(246, 240, 228, 1);
+  --variable-collection-green-50: rgba(140, 175, 171, 1);
+  --variable-collection-green-25: rgba(198, 215, 213, 1);
+  --variable-collection-dark-green: rgba(29, 49, 47, 1);
+  --variable-collection-gray-for-disabled-buttons: rgba(184, 184, 184, 1);
+}
+
+/* START TESTIMONIALS */
+
+/* END TESTIMONIALS */
 
 
 
